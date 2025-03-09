@@ -22,27 +22,27 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 
 #### 1.1.2. コード記述のルール
 
-<details><summary>#### 1.1.2.1. 大文字/小文字の区別</summary>
+<details><summary>1.1.2.1. 大文字/小文字の区別</summary>
 
 #WRITE ME!!
 </details>
 
-<details><summary>#### 1.1.2.2. 全角/半角の区別</summary>
+<details><summary>1.1.2.2. 全角/半角の区別</summary>
 
 #WRITE ME!!
 </details>
 
-<details><summary>#### 1.1.2.3. 空白文字</summary>
+<details><summary>1.1.2.3. 空白文字</summary>
 
 #WRITE ME!!
 </details>
 
-<details><summary>#### 1.1.2.4. セミコロン</summary>
+<details><summary>1.1.2.4. セミコロン</summary>
 
 #WRITE ME!!
 </details>
 
-<details><summary>#### 1.1.2.5. コメント</summary>
+<details><summary>1.1.2.5. コメント</summary>
 
 #WRITE ME!!
 </details>
