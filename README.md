@@ -10,3 +10,7 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
 JavaScript講習会では事前に以下の環境が整っている前提で進められる。
  - Visual Studio Code
  - Node.js
+
+> [!IMPORTANT]
+> 何か問題が起きたら気軽に相談しましょう！
+
