@@ -18,6 +18,35 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 
 ### 1.1. JavaScript開発の基礎
 
+#### 1.1.1. Hello world!
+
+#### 1.1.2. コード記述のルール
+
+<details><summary>#### 1.1.2.1. 大文字/小文字の区別</summary>
+
+#WRITE ME!!
+</details>
+
+<details><summary>#### 1.1.2.2. 全角/半角の区別</summary>
+
+#WRITE ME!!
+</details>
+
+<details><summary>#### 1.1.2.3. 空白文字</summary>
+
+#WRITE ME!!
+</details>
+
+<details><summary>#### 1.1.2.4. セミコロン</summary>
+
+#WRITE ME!!
+</details>
+
+<details><summary>#### 1.1.2.5. コメント</summary>
+
+#WRITE ME!!
+</details>
+
 ### 1.2. 変数とデータ型
 
 ### 1.3. 演算子
