@@ -367,6 +367,15 @@ let menu = ["pizza","pasta","meat","soup","dessert"]
 変数"menu"に配列を代入しました。各要素はコンマで区切られており5つの要素が含まれています。
 
 #### 1.5.1.1. 配列の基本操作
+生成した配列の特定の値を取得・変更したい場合には添字(index)を使います。
+> ```javascript
+> console.log(menu[0]) //0番目の要素を取得
+> > "pizza"
+> menu[3] = "bread" //3番目の要素を変更
+> console.log(menu)
+> "pizza","pasta","meat","bread","dessert"
+> ```
+
 ### 1.6. 関数
 
 ### 2. JavaScript基礎演習
