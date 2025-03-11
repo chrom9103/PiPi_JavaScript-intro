@@ -378,7 +378,7 @@ console.log(menu)
 ```
 逆に要素を削除したい場合には`pop`などを使用します。
 ```javascript
-let new_menu = menu.pop() //末尾の要素を削除
+menu.pop() //末尾の要素を削除
 console.log(menu)
 > ["pizza","pasta","meat","bread","dessert"]
 ```
