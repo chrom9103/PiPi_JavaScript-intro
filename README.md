@@ -299,6 +299,20 @@ else ifやelseを使うことで、条件式がfalseの場合に別の処理を�
 この例ではscoreが100の場合は"Excellent!!",80以上100未満の場合は"Good!",60以上80未満の場合は"Pass",それ以下の場合は"Bad"と表示されます。
 
 #### 1.4.2. 反復処理
+開発では同じ処理を何度も繰り返し行うことがあります。試しに"Loading..."と5回出力するプログラムを書いてみましょう。
+```javascript
+console.log("Loading...")
+console.log("Loading...")
+console.log("Loading...")
+console.log("Loading...")
+console.log("Loading...")
+> Loading...
+> Loading...
+> Loading...
+> Loading...
+> Loading...
+```
+5回程度なら面倒な思いをして可読性の悪いコードを書けば済みますが煩雑です。そこで反復処理を行います。  
 反復処理は同じ処理を繰り返し実行するための構文です。JavaScriptではwhile文やfor文を使って反復処理を行います。
 
 #### 1.4.2.1. while文
