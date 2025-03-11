@@ -383,6 +383,8 @@ console.log(menu)
 > ["pizza","pasta","meat","bread","dessert"]
 ```
 
+#### 1.5.1.2. 配列の活用例
+
 ### 1.6. 関数
 
 ### 2. JavaScript基礎演習
