@@ -384,6 +384,19 @@ console.log(menu)
 ```
 
 #### 1.5.1.2. 配列の活用例
+for文を使用することにより配列の要素を順番に処理することができます。例えば配列の全要素を出力する場合は次のようにすることができます。
+```javascript
+let menu = ["pizza", "pasta", "meat", "bread", "dessert"];
+for (let i = 0; i < menu.length; i++) {
+    console.log(menu[i]);
+}
+> pizza
+> pasta
+> meat
+> bread
+> dessert
+```
+menu.lengthにより配列の要素数をforループの上限数としています。
 
 ### 1.6. 関数
 
