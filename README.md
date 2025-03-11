@@ -259,7 +259,14 @@ undefinedは変数が未定義であることを表しています。変数を�
 ### 1.4. 制御構文
 
 #### 1.4.1. 条件分岐
-
+javascriptのif文は、ifに続く丸括弧()内の条件式がtrueの場合、それに続く波括弧{}内の処理を実行します。条件式がfalseの場合には{}内の処理は実行せずif文の次の行に処理を進めます。
+> ```javascript
+> if( 条件式 ){
+>   ifブロック
+> }
+> > cleard
+> ```
+もっとも単純化した例は次の通りです。
 > 真偽値を使って条件判定
 > ```javascript
 > let hasFlag = true
@@ -268,6 +275,28 @@ undefinedは変数が未定義であることを表しています。変数を�
 > }
 > > cleard
 > ```
+また、比較演算子を使用することにより次のような実装をすることができます。
+> ```javascript
+> let score = 100
+> if( score == 100 ){
+>   console.log("Excellent!!")
+> }
+> > Excellent!!
+> ```
+else ifやelseを使うことで、条件式がfalseの場合に別の処理を実行することができます。
+> ```javascript
+> let score = 70
+> if( score == 100 ){
+>   console.log("Excellent!!")
+> } else if (score >= 80) {
+>   console.log("Good!")
+> } else if (score >= 60) {
+>   console.log("Pass")
+> } else {
+>   console.log("Bad")
+> }
+> > Pass
+この例ではscoreが100の場合は"Excellent!!",80以上100未満の場合は"Good!",60以上80未満の場合は"Pass",それ以下の場合は"Bad"と表示されます。
 
 #### 1.4.2. 反復処理
 
