@@ -368,7 +368,19 @@ console.log(menu[0]) //0番目の要素を取得
 > "pizza"
 menu[3] = "bread" //3番目の要素を変更
 console.log(menu)
-"pizza","pasta","meat","bread","dessert"
+> ["pizza","pasta","meat","bread","dessert"]
+```
+配列に要素を追加したい場合には`push`などを使用します。
+```javascript
+menu.push = "soup" //末尾に要素を追加
+console.log(menu)
+> ["pizza","pasta","meat","bread","dessert","soup"]
+```
+逆に要素を削除したい場合には`pop`などを使用します。
+```javascript
+let new_menu = menu.pop() //末尾の要素を削除
+console.log(menu)
+> ["pizza","pasta","meat","bread","dessert"]
 ```
 
 ### 1.6. 関数
