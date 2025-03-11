@@ -372,7 +372,7 @@ console.log(menu)
 ```
 配列に要素を追加したい場合には`push`などを使用します。
 ```javascript
-menu.push = "soup" //末尾に要素を追加
+menu.push("soup") //末尾に要素を追加
 console.log(menu)
 > ["pizza","pasta","meat","bread","dessert","soup"]
 ```
