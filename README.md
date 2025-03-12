@@ -539,6 +539,21 @@ let year = 2000
 console.log(reuslt)
 ```
 
+### 2.4.2-A1. $`PIE`$
+
+### 2.4.2-B2. $`Binary`$
+入力された数字(10進数)を2進数に変換せよ。
+```javascript
+let n = 1024
+
+// WRITE ME!!
+
+console.log(reuslt)
+```
+
+### 2.4.2-B3. $`LivingDay`$
+本日が生まれてから何日後か出力せよ。ただし閏年も考慮すること。
+
 
 ***
 参考文献  
