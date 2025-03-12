@@ -467,11 +467,11 @@ function defMsg() {
 
 ## 2. JavaScript基礎演習
 
-#### 2.3-A1. $`\sin x`$
+### 2.3-A1. $`\sin x`$
 $`\sin x`$の値は$`x`$が0に近い場合、以下のように近似することができる。  
 > $`\sin x \simeq x - \frac{x^3}{6}`$  
 
-これを利用して$`sin1°`$の近似値を求めるコードを書いてください。
+これを利用して$`\sin 1°`$の近似値を求めよ。
 ```javascript
 let x = 1
 let result = 0
@@ -479,6 +479,18 @@ let result = 0
 
 console.log(result)
 ```
+
+### 2.3-B2. $`dice`$
+公平な6面サイコロを1回振る。出た目を$`X`$とするとき、$`X`$が奇数である場合には $`true`$を、偶数である場合には $`false`$を出力せよ。
+```javascript
+//WRITE ME!!
+
+console.log(result)
+```
+> [!HINT]
+> JavaScript において、`Math.random` と `Math.floor` を組み合わせることで、指定した範囲の乱数(整数)を生成できる。
+> `Math.random()` は 0 以上 1 未満の小数をランダムに返す関数である。この値に適切なスカラーを掛け、`Math.floor()` を使用して小数部分を切り捨てることで、整数範囲の乱数を得ることができる。
+
 
 ***
 参考文献  
