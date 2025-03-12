@@ -467,6 +467,19 @@ function defMsg() {
 
 ## 2. JavaScript基礎演習
 
+#### 2.3-A1. $`\sin x`$
+$`\sin x`$の値は$`x`$が0に近い場合、以下のように近似することができる。  
+> $`\sin x \simeq x - \frac{x^3}{6}`$  
+
+これを利用して$`sin1°`$の近似値を求めるコードを書いてください。
+```javascript
+let x = 1
+let result = 0
+//WRITE ME!!
+
+console.log(result)
+```
+
 ***
 参考文献  
 外村将大(2021).『独習JavaScript 新版』.翔泳社.
