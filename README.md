@@ -475,6 +475,7 @@ $`\sin x`$の値は$`x`$が0に近い場合、以下のように近似するこ�
 ```javascript
 let x = 1
 let result = 0
+
 //WRITE ME!!
 
 console.log(result)
@@ -513,14 +514,29 @@ console.log(result)
 明治より前の年号に対しては「明治以前です。」と表示すること。
 年号の対応は以下の通り：明治:1868~, 大正:1912~, 昭和:1926~, 平成:1989~, 令和:2019~ 
 ```javascript
-let year = 2000;
+let year = 2000
 
-let era = "";
-let eraYear = 0;
+let era = ""
+let eraYear = 0
 
 // WRITE ME!!
 
 console.log(`${year}年は${era}${eraYear}年です。`)
+```
+
+### 2.4.1-B3. $`LeapYear`$
+入力された年が閏年か否か判別せよ。閏年である条件は以下のとおりである。
+```
+西暦年が4で割り切れる年は閏年
+ただし、西暦年が100で割り切れる年は平年
+ただし、西暦年が400で割り切れる年は閏年
+```
+```javascript
+let year = 2000
+
+// WRITE ME!!
+
+console.log(reuslt)
 ```
 
 
