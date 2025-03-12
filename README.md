@@ -99,14 +99,13 @@ console.log(text)
 ```
 
 > [!TIP]
-> 定数
 > 定数(const)を使った場合には値の再代入を行うことができません。
 > ```javascript
 > const msg = "Good morning!"
 > msg = "Hello!"
 > > Uncaught TypeError TypeError: Assignment to constant variable. [訳:型エラー：定数に対する値の代入]
 
-> [!TIP]
+> [!NOTE]
 > 識別子の命名規則
 > JavaScriptでは次のルールに従って識別子の命名を行うことができます。
 > ```
