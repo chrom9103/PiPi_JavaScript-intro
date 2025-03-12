@@ -541,7 +541,7 @@ console.log(reuslt)
 
 ### 2.4.2-A1. $`\pi`$
 $`\pi`$の値は逆正接関数のテイラー展開により次のように求まる。  
-> $`\pi = 4 \sum\limits_{n=1}^\infty \frac{(-1)^n}{2n+1}`$  
+> $`\frac{\pi}{4} = \sum\limits_{n=1}^\infty \frac{(-1)^n}{2n+1}`$  
 
 これを利用して$`\pi`$の近似値を求めよ。
 ```javascript
