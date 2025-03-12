@@ -550,6 +550,18 @@ $`\pi`$の値は逆正接関数のテイラー展開により次のように求�
 console.log(reuslt)
 ```
 
+### 2.4.2-B2. $`Sqrt`$
+任意の自然数の平方を誤差0.0001以内で求めよ。
+```javascript
+let num = 2
+let error = 0.0001
+
+// WRITE ME!!
+
+console.log(`${num}の平方は${result}です。`)
+```
+
+
 ### 2.4.2-B3. $`Binary`$
 入力された数字(10進数)を2進数に変換せよ。
 ```javascript
