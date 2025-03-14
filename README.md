@@ -750,6 +750,47 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()]
 ```
 
 
+### 2.6-A17. $`HalfAdder`$
+2つの1ビットのバイナリ値を入力として受け取り、半加算器（Half Adder）を実装せよ。  
+半加算器は以下の論理回路で構成される：
+- 和（Sum）: $S = A \oplus B$（XOR 演算）
+- 桁上げ（Carry）: $C = A \land B$（AND 演算）
+
+```javascript
+
+function halfAdder(A, B) {
+    let sum = false
+    let carry = false
+
+    // WRITE ME!!
+
+    return { sum, carry }
+}
+
+let A = false
+let B = false
+
+let result = halfAdder(A, B)
+console.log("Sum:", result.sum)
+console.log("Carry:", result.carry)
+
+function or(a, b) {
+    let result = (a == true || b == true) ? true : false;
+    return result
+}
+
+function and(a, b) {
+    let result = (a == true && b == true) ? true : false;
+    return result
+}
+
+function not(a) {
+    return a == true ? false : true;
+}
+
+```
+
+
 ***
 参考文献  
 外村将大(2021).『独習JavaScript 新版』.翔泳社.
