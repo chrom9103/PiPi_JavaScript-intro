@@ -535,7 +535,7 @@ let year = 2000
 
 // WRITE ME!!
 
-console.log(reuslt)
+console.log(result)
 ```
 
 ### 2.4.2-A6. $`\pi`$
@@ -546,7 +546,7 @@ $`\pi`$の値は逆正接関数のテイラー展開により次のように求�
 ```javascript
 // WRITE ME!!
 
-console.log(reuslt)
+console.log(result)
 ```
 
 ### 2.4.2-A7. $`Euclidean`$
@@ -578,7 +578,7 @@ let n = 1024
 
 // WRITE ME!!
 
-console.log(reuslt)
+console.log(result)
 ```
 
 
@@ -637,7 +637,7 @@ let total_cost = 0
 let orders_list = []
 
 let menu_list = [[商品番号,商品名,価格],
-[1202,"小エビのサラダ",350],　
+[1202,"小エビのサラダ",350],
 [1205,"わかめのサラダ",350],
 [1209,"チキンのサラダ",350],
 [1301,"コーンクリームスープ",150],
