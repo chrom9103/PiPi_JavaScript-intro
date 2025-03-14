@@ -78,7 +78,7 @@ let menu_list = [["商品番号","商品名","価格"],
 
 //WRITE ME!!
 while (total_cost < budget){
-    let idx = Math.floor(Math.random() * menu_list.length)+1
+    let idx = Math.floor(Math.random() * (menu_list.length-1))+1
     let order = menu_list[idx]
     order_list.push(order[1])
     total_cost += order[2]
