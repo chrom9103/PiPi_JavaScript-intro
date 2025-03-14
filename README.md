@@ -733,6 +733,23 @@ console.log("合計: " + total_cost + "円")
 > 合計金額が980円から1,020円の範囲に収まるようにランダムに組み合わせを選ぶこと。
 
 
+### 2.6-A16. $`AliveDays`$
+生年月日を入力として受け取り、現在の日付までの経過日数を求めよ。ただし、閏年を考慮すること。[(閏年の条件)](#241-b5)
+```javascript
+function isLeapYear(year) {
+    //WRITE ME!! (閏年判定)
+}
+
+let birthDate = [2005,09,27]
+
+let date = new Date()
+let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()]
+
+//WRITE ME!!
+
+```
+
+
 ***
 参考文献  
 外村将大(2021).『独習JavaScript 新版』.翔泳社.
