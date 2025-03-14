@@ -594,16 +594,12 @@ console.log(result)
 ### 2.5.1-A11. $`CTM`$
 与えられた数値の配列から、以下の統計値を求めよ。
 - 平均値（Mean）: 配列内のすべての値の合計を要素数で割った値。
-- 中央値（Median）: 配列内の値を昇順に並べたときの中央の値。要素数が偶数の場合は中央の2つの値の平均を取る。
-- 最頻値（Mode）: 配列内で最も頻繁に出現する値。複数ある場合はすべて出力する。
 ```javascript
 let scores = [82, 53, 71, 15, 85, 71, 71, 41, 23, 74, 65, 15]
 
 // WRITE ME!!
 
 console.log("Mean:" + mean);
-console.log("Median:" + median);
-console.log("Mode:" + mode);
 ```
 
 
