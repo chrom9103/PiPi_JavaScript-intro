@@ -38,27 +38,103 @@ console.log("Hello world!");
 
 <details><summary>1.1.2.1. 大文字/小文字の区別</summary>
 
-#WRITE ME!!
+JavaScriptでは大文字と小文字が区別されます。例えば、`variable` と `Variable` は異なる変数として扱われます。次の例を見てみましょう。
+
+```javascript
+let variable = "小文字";
+let Variable = "大文字";
+
+console.log(variable); // "小文字"
+console.log(Variable); // "大文字"
+```
+
+このように、変数名の大文字と小文字を間違えると意図しない動作を引き起こす可能性があるため、注意が必要です。
 </details>
 
 <details><summary>1.1.2.2. 全角/半角の区別</summary>
 
-#WRITE ME!!
+JavaScriptでは全角と半角の文字が区別されます。例えば、全角のスペースと半角のスペースは異なる文字として扱われます。次の例を見てみましょう。
+
+```javascript
+let fullWidthSpace = "　"; // 全角スペース
+let halfWidthSpace = " "; // 半角スペース
+
+console.log(fullWidthSpace === halfWidthSpace);
+> false
+```
+
+このように、全角と半角の違いを意識してコードを書く必要があります。特に、文字列の比較や入力の検証を行う際には注意が必要です。
 </details>
 
 <details><summary>1.1.2.3. 空白文字</summary>
 
-#WRITE ME!!
+空白文字は、コードの可読性を高めるために適切に使用する必要があります。JavaScriptでは、空白文字（スペース、タブ、改行など）は無視されるため、コードの動作には影響しませんが、適切に配置することでコードの見やすさが向上します。
+
+例えば、次のように空白文字を使ってコードを整形します。
+
+```javascript
+let sum = 1 + 2; // スペースを使って可読性を向上
+let product = 3 * 4; // スペースを使って可読性を向上
+
+if (sum > product) {
+  console.log("Sum is greater than product");
+} else {
+  console.log("Product is greater than or equal to sum");
+}
+```
+
+このように、適切な場所に空白文字を入れることで、コードの可読性が向上し、他の開発者が理解しやすくなります。
 </details>
 
 <details><summary>1.1.2.4. セミコロン</summary>
 
-#WRITE ME!!
+JavaScriptでは、文の終わりにセミコロン（`;`）を付けることが推奨されています。セミコロンを付けることで、文の区切りが明確になり、コードの可読性が向上します。また、セミコロンを省略すると、JavaScriptの自動セミコロン挿入（ASI）機能により予期しない動作を引き起こす可能性があります。
+
+例えば、次のようにセミコロンを省略した場合、意図しない結果になることがあります。
+
+```javascript
+let a = 1
+let b = 2
+let c = a + b
+(function() {
+  console.log(c)
+})()
+```
+
+このコードはエラーを引き起こしますが、セミコロンを適切に挿入することで解決できます。
+
+```javascript
+let a = 1;
+let b = 2;
+let c = a + b;
+(function() {
+  console.log(c);
+})();
+```
+
+このように、セミコロンを適切に使用することで、コードの予期しない動作を防ぐことができます。
 </details>
 
 <details><summary>1.1.2.5. コメント</summary>
 
-#WRITE ME!!
+コードにコメントを追加することで、コードの意図や動作を説明し、他の開発者や将来の自分が理解しやすくなります。JavaScriptでは、以下のようにコメントを記述します。
+
+- シングルラインコメント: `//` を使って1行のコメントを記述します。
+```javascript
+// これはシングルラインコメントです
+console.log("Hello world!"); // この行の後ろにもコメントを追加できます
+```
+
+- マルチラインコメント: `/* */` を使って複数行のコメントを記述します。
+```javascript
+/*
+  これはマルチラインコメントです。
+  複数行にわたるコメントを記述できます。
+*/
+console.log("Hello world!");
+```
+
+コメントを適切に使用することで、コードの可読性が向上し、他の開発者がコードを理解しやすくなります。
 </details>
 
 ### 1.2. 変数とデータ型
