@@ -50,8 +50,10 @@ JavaScriptでは大文字と小文字が区別されます。例えば、`variab
 let variable = "小文字";
 let Variable = "大文字";
 
-console.log(variable); // "小文字"
-console.log(Variable); // "大文字"
+console.log(variable);
+console.log(Variable);
+> 小文字
+> 大文字
 ```
 
 このように、変数名の大文字と小文字を間違えると意図しない動作を引き起こす可能性があるため、注意が必要です。
