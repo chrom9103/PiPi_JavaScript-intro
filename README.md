@@ -200,9 +200,9 @@ let 変数名 = 値
 まずは`let`を使って宣言した変数の値を上書きする方法について確認していきます。(このことを値の**再代入**という)
 ```javascript
 let msg = "Good morning!";
-console.log(text);
+console.log(msg);
 msg = "Hello!";
-console.log(text);
+console.log(msg);
 
 > Good morning!
 > Hello!
