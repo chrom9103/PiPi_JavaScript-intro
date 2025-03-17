@@ -33,8 +33,8 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 #### 1.1.1. Hello world!
 早速ですがプログラミングを始めていきましょう！  
 その前にVScode上にある"出力(console)"に「Hello world!」という文字を出してみます。
-tutorial.jsに以下のコードを書いてから`実行>デバッグの開始`から実行してみましょう。
-```javascript copy
+tutorial.jsに以下のコードを書いてから`実行>デバッグの開始`から実行してみましょう。（**`F5`キーでデバッグの開始ができます**）
+```javascript
 console.log("Hello world!");
 ```
 > [!TIP]
@@ -46,6 +46,20 @@ console.log("Hello world!");
 コンソールに「Hello world!」と表示されたら成功です。  
 `console.log()`というコマンドで、括弧内の要素をコンソールに出力することができるので覚えておきましょう。
 
+<details><summary>コンソールが表示されない場合</summary>
+
+コンソールが表示されていない(画面下部にウインドウがない)場合は、以下のようにして表示させてください。
+
+1. ウインドウ上部の「パネルの切り替え」をクリックします。
+![パネルの切り替えをクリック or `Ctrl + J`](data/1.1.1.1.JPG)
+2. 画面下部に「ターミナル」ウインドウが表示されます。
+3. 「ターミナル」タブの隣にある「デバッグコンソール」タブをクリックします。
+![デバッグコンソールの画面](data/1.1.1.3.JPG)
+
+これでコンソールが表示され、プログラムの実行結果を確認できるようになります。
+</details>
+
+> [!NOTE]
 > コンソールとは、プログラムの実行結果やエラーメッセージなどを表示するための画面やウィンドウのことです。  
 > プログラミングを行う際には、コンソールを使ってプログラムの動作を確認したりデバッグを行ったりします。
 > 
@@ -186,9 +200,9 @@ let 変数名 = 値
 まずは`let`を使って宣言した変数の値を上書きする方法について確認していきます。(このことを値の**再代入**という)
 ```javascript
 let msg = "Good morning!";
-console.log(text);
+console.log(msg);
 msg = "Hello!";
-console.log(text);
+console.log(msg);
 
 > Good morning!
 > Hello!
@@ -856,6 +870,14 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 半加算器は以下の論理回路で構成される：
 - 和（Sum）: $S = A \oplus B$（XOR 演算）
 - 桁上げ（Carry）: $C = A \land B$（AND 演算）
+
+出力は次のようになる。
+|  $A$  |  $B$  |  $S$  |  $C$  | 
+| :---: | :---: | :---: | :---: | 
+| false | false | false | false | 
+| false | true  | true  | false | 
+| true  | false | true  | false | 
+| true  | true  | false | true  | 
 
 ```javascript
 
