@@ -871,6 +871,14 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 - 和（Sum）: $S = A \oplus B$（XOR 演算）
 - 桁上げ（Carry）: $C = A \land B$（AND 演算）
 
+出力は次のようになる。
+| 入力 | 入力 | 和(Sum) | 桁上げ(Carry) | 
+| :---: | :---: | :---: | :---: | 
+| false | false | false | false | 
+| false | true  | true  | false | 
+| true  | false | true  | false | 
+| true  | true  | false | true  | 
+
 ```javascript
 
 function halfAdder(A, B) {
