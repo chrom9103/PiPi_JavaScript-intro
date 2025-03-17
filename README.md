@@ -34,31 +34,115 @@ console.log("Hello world!");
 コンソールに「Hello world!」と表示されたら成功です。  
 `console.log()`というコマンドで、括弧内の要素をコンソールに出力することができるので覚えておきましょう。
 
+> コンソールとは、プログラムの実行結果やエラーメッセージなどを表示するための画面やウィンドウのことです。  
+> プログラミングを行う際には、コンソールを使ってプログラムの動作を確認したりデバッグを行ったりします。
+> 
+> Visual Studio Codeでは、画面下部に「出力」や「デバッグコンソール」といったタブがあり、ここにプログラムの実行結果が表示されます。  
+> プログラムが正しく動作しているかどうかを確認するために、コンソールを活用しましょう。
+
 #### 1.1.2. コード記述のルール
 
 <details><summary>1.1.2.1. 大文字/小文字の区別</summary>
 
-#WRITE ME!!
+JavaScriptでは大文字と小文字が区別されます。例えば、`variable` と `Variable` は異なる変数として扱われます。次の例を見てみましょう。
+
+```javascript
+let variable = "小文字";
+let Variable = "大文字";
+
+console.log(variable);
+console.log(Variable);
+> 小文字
+> 大文字
+```
+
+このように、変数名の大文字と小文字を間違えると意図しない動作を引き起こす可能性があるため、注意が必要です。
 </details>
 
 <details><summary>1.1.2.2. 全角/半角の区別</summary>
 
-#WRITE ME!!
+JavaScriptでは全角と半角の文字が区別されます。例えば、全角のスペースと半角のスペースは異なる文字として扱われます。次の例を見てみましょう。
+
+```javascript
+let fullWidthSpace = "　"; // 全角スペース
+let halfWidthSpace = " "; // 半角スペース
+
+console.log(fullWidthSpace === halfWidthSpace);
+> false
+```
+
+このように、全角と半角の違いを意識してコードを書く必要があります。特に、文字列の比較や入力の検証を行う際には注意が必要です。
 </details>
 
 <details><summary>1.1.2.3. 空白文字</summary>
 
-#WRITE ME!!
+空白文字は、コードの可読性を高めるために適切に使用する必要があります。JavaScriptでは、空白文字（スペース、タブ、改行など）は無視されるため、コードの動作には影響しませんが、適切に配置することでコードの見やすさが向上します。
+
+例えば、次のように空白文字を使ってコードを整形します。
+
+```javascript
+let sum = 1 + 2; // スペースを使って可読性を向上
+let product = 3 * 4; // スペースを使って可読性を向上
+
+if (sum > product) {
+  console.log("Sum is greater than product");
+} else {
+  console.log("Product is greater than or equal to sum");
+}
+```
+
+このように、適切な場所に空白文字を入れることで、コードの可読性が向上し、他の開発者が理解しやすくなります。
 </details>
 
 <details><summary>1.1.2.4. セミコロン</summary>
 
-#WRITE ME!!
+JavaScriptでは、文の終わりにセミコロン（`;`）を付けることが推奨されています。セミコロンを付けることで、文の区切りが明確になり、コードの可読性が向上します。また、セミコロンを省略すると、JavaScriptの自動セミコロン挿入（ASI）機能により予期しない動作を引き起こす可能性があります。
+
+例えば、次のようにセミコロンを省略した場合、意図しない結果になることがあります。
+
+```javascript
+let a = 1
+let b = 2
+let c = a + b
+(function() {
+  console.log(c)
+})()
+```
+
+このコードはエラーを引き起こしますが、セミコロンを適切に挿入することで解決できます。
+
+```javascript
+let a = 1;
+let b = 2;
+let c = a + b;
+(function() {
+  console.log(c);
+})();
+```
+
+このように、セミコロンを適切に使用することで、コードの予期しない動作を防ぐことができます。
 </details>
 
 <details><summary>1.1.2.5. コメント</summary>
 
-#WRITE ME!!
+コードにコメントを追加することで、コードの意図や動作を説明し、他の開発者や将来の自分が理解しやすくなります。JavaScriptでは、以下のようにコメントを記述します。
+
+- シングルラインコメント: `//` を使って1行のコメントを記述します。
+```javascript
+// これはシングルラインコメントです
+console.log("Hello world!"); // この行の後ろにもコメントを追加できます
+```
+
+- マルチラインコメント: `/* */` を使って複数行のコメントを記述します。
+```javascript
+/*
+  これはマルチラインコメントです。
+  複数行にわたるコメントを記述できます。
+*/
+console.log("Hello world!");
+```
+
+コメントを適切に使用することで、コードの可読性が向上し、他の開発者がコードを理解しやすくなります。
 </details>
 
 ### 1.2. 変数とデータ型
@@ -68,8 +152,8 @@ console.log("Hello world!");
 #### 1.2.1.1. 変数宣言 
 変数とは、プロフラムで使われる値を名前付きで管理する**ラベルのようなもの**です。プログラムを書いていると同じ値を何度も使ったり一時的に値を保持したいケースが出てきます。このようなときに次のように変数で値に対して名前を付けておけば任意のタイミングで繰り返し使用できます。
 ```javascript
-let text = "Hello world!"
-console.log(text)
+let text = "Hello world!";
+console.log(text);
 > Hello world!
 ```
 変数を使用する際には主に`let`というコマンドを記述します。また、一度値を設定すると変更ができない特殊な変数(**定数**)もあります。  
@@ -89,20 +173,20 @@ let 変数名 = 値
 #### 1.2.1.2. 値の再代入
 まずは`let`を使って宣言した変数の値を上書きする方法について確認していきます。(このことを値の**再代入**という)
 ```javascript
-let msg = "Good morning!"
-console.log(text)
-> Good morning!
+let msg = "Good morning!";
+console.log(text);
+msg = "Hello!";
+console.log(text);
 
-msg = "Hello!"
-console.log(text)
+> Good morning!
 > Hello!
 ```
 
 > [!TIP]
 > 定数(const)を使った場合には値の再代入を行うことができません。
 > ```javascript
-> const msg = "Good morning!"
-> msg = "Hello!"
+> const msg = "Good morning!";
+> msg = "Hello!";
 > > Uncaught TypeError TypeError: Assignment to constant variable. [訳:型エラー：定数に対する値の代入]
 
 > [!NOTE]
@@ -136,11 +220,11 @@ console.log(text)
 
 JavaScriptの場合は、シングルクォートまたはダブルクォートのどちらを使用しても特に違いはありません。一方、前後でクォートの種類が異なるとエラーとなります。
 ```javascript
-console.log("これはエラーになります')
+console.log("これはエラーになります');
 ```
 文字列同士はプラス(+)の演算子を使って結合できます。
 ```javascript
-console.log("こんにちは、" + "くろむ" + "さん。")
+console.log("こんにちは、" + "くろむ" + "さん。");
 > こんにちは、くろむさん。
 ```
 
@@ -148,13 +232,13 @@ console.log("こんにちは、" + "くろむ" + "さん。")
 数値型は数値を表すデータ型です。  
 数値型は $`-(2^{53}-1)`$ から $`2^{53}-1`$ までの数値を表現できます。
 ```javascript
-console.log(1 + 2)
+console.log(1 + 2);
 > 3
 ```
 文字列型における数字と数値型における数値は、見た目は同じでも異なるデータとして扱われます。
 文字列型における数字はあくまで「文字」として扱われるため、計算には直接使用できません。
 ```javascript
-console.log(1 + "2")
+console.log(1 + "2");
 > "12"
 ```
 
@@ -163,19 +247,19 @@ BigInt型 は、非常に大きな整数を扱うためのデータ型です。�
 数値の末尾に**n**をつけることでBigInt型の数値として定義できます。
 ```javascript
 //Number型では正常処理の範囲外のため誤った値が表示される
-console.log( 2 ** 53 + 1 )
+console.log( 2 ** 53 + 1 );
 > 9007199254740992
 //BigInt型であれば問題なく表示可能
-console.log( 2n ** 53n + 1n )
+console.log( 2n ** 53n + 1n );
 > 9007199254740993n
 ```
 
 なお、このBigInt型と数値型は混在して使用することができないため注意してください。
 また、BigIntはあくまで整数値を表す方になるため小数点以下の値は切り捨てられます。
 ```javascript
-const num = 5n
-const den = 4n
-console.log( num / den )
+const num = 5n;
+const den = 4n;
+console.log( num / den );
 > 1n  //小数点以下は切り捨てられる( 1.25 -> 1 )
 ```
 
@@ -183,9 +267,9 @@ console.log( num / den )
 真偽値は**true**または**false**という値をとります。trueの場合には真, falseの場合には偽ということになります。真偽値はifなどの条件文と併せて使われることが多々あります。(条件文は[1.4.1](#141-条件分岐)で解説)  
 真偽値は等価性の結果として返されることがしばしばあります。(等価性は[1.3.3](#133-等価演算子)で解説)
 ```javascript
-console.log( 3 == 3 )
+console.log( 3 == 3 );
 > true
-console.log( 3 == 5 )
+console.log( 3 == 5 );
 > false
 ```
 
@@ -211,8 +295,8 @@ nullは参照を保持していないことを表します。すなわち「変�
 #### 1.2.2.6. undefined
 undefinedは変数が未定義であることを表しています。変数を制限するときに値を代入しない場合には、undefinedがプログラムによって自動的に設定されます。
 ```javascript
-let hoge
-console.log( hoge )
+let hoge;
+console.log( hoge );
 > undefined
 ```
 
@@ -222,9 +306,9 @@ console.log( hoge )
 #### 1.3.1. グループ化演算子
 グループ化演算子`()`は通常の演算子の優先順位を変更し、意図した順番で計算を行うことができます。
 ```javascript
-console.log( 2 + 3 * 4)
+console.log( 2 + 3 * 4);
 > 14
-console.log( ( 2 + 3 ) * 4)
+console.log( ( 2 + 3 ) * 4);
 > 20
 ```
 
@@ -250,6 +334,10 @@ console.log( ( 2 + 3 ) * 4)
 | >=     | 以上(大なりイコール) | 5 >= 3 | true  | 
 | <=     | 以下(小なりイコール) | 5 <= 3 | false | 
 
+
+ここまで学んだ内容をもとに演習問題に挑戦してみましょう！問題を解くことで、JavaScriptの基礎をより深く理解することができます。  
+演習問題： [【リンク】](#23-a1-sin-x)
+
 ### 1.4. 制御構文
 
 #### 1.4.1. 条件分岐
@@ -262,44 +350,46 @@ if( 条件式 ){
 ```
 もっとも単純化した例は次の通りです。
 ```javascript
-let hasFlag = true
+let hasFlag = true;
 if( hasFlag ){
-  console.log("cleard")
+  console.log("cleard");
 }
 > cleard
 ```
 また、比較演算子を使用することにより次のような実装をすることができます。
 ```javascript
-let score = 100
+let score = 100;
 if( score == 100 ){
-  console.log("Excellent!!")
+  console.log("Excellent!!");
 }
 > Excellent!!
 ```
 else ifやelseを使うことで、条件式がfalseの場合に別の処理を実行することができます。
 ```javascript
-let score = 70
+let score = 70;
 if( score == 100 ){
-  console.log("Excellent!!")
+  console.log("Excellent!!");
 } else if (score >= 80) {
-  console.log("Good!")
+  console.log("Good!");
 } else if (score >= 60) {
-  console.log("Pass")
+  console.log("Pass");
 } else {
-  console.log("Bad")
+  console.log("Bad");
 }
 > Pass
 ```
-この例ではscoreが100の場合は"Excellent!!",80以上100未満の場合は"Good!",60以上80未満の場合は"Pass",それ以下の場合は"Bad"と表示されます。
+この例ではscoreが100の場合は"Excellent!!",80以上100未満の場合は"Good!",60以上80未満の場合は"Pass",それ以下の場合は"Bad"と表示されます。  
+
+演習問題： [【リンク】](#241-a3)
 
 #### 1.4.2. 反復処理
 開発では同じ処理を何度も繰り返し行うことがあります。試しに"Loading..."と5回出力するプログラムを書いてみましょう。
 ```javascript
-console.log("Loading...")
-console.log("Loading...")
-console.log("Loading...")
-console.log("Loading...")
-console.log("Loading...")
+console.log("Loading...");
+console.log("Loading...");
+console.log("Loading...");
+console.log("Loading...");
+console.log("Loading...");
 > Loading...
 > Loading...
 > Loading...
@@ -318,10 +408,10 @@ while( 条件式 ){
 ```
 もっとも単純化した例は次の通りです。
 ```javascript
-let cnt = 0
+let cnt = 0;
 while( cnt < 5 ){
-  console.log(cnt)
-  cnt += 1
+  console.log(cnt);
+  cnt += 1;
 }
 > 0
 > 1
@@ -340,7 +430,7 @@ for( 初期化処理 ; 条件式 ; 更新式 ){
 もっとも単純化した例は次の通りです。
 ```javascript
 for( idx = 0 ; idx < 5 ; idx++ ){
-  console.log(idx)
+  console.log(idx);
 }
 > 0
 > 1
@@ -349,6 +439,8 @@ for( idx = 0 ; idx < 5 ; idx++ ){
 > 4
 ```
 
+演習問題： [【リンク】](#242-a6)
+
 ### 1.5. コレクション
 コレクションとは値をまとまりで管理するオブジェクトのことです。ここでは配列(Array)を紹介します。
 
@@ -356,29 +448,29 @@ for( idx = 0 ; idx < 5 ; idx++ ){
 複数の値を1つの変数にまとめて格納したものを「配列」といいます。そこに値を代入したり参照したりして使用します。  
 まずは配列を作ってみましょう。
 ```javascript
-let menu = ["pizza","pasta","meat","soup","dessert"]
+let menu = ["pizza","pasta","meat","soup","dessert"];
 ```
 変数"menu"に配列を代入しました。各要素はコンマで区切られており5つの要素が含まれています。
 
 #### 1.5.1.1. 配列の基本操作
 生成した配列の特定の値を取得・変更したい場合には添字(index)を使います。
 ```javascript
-console.log(menu[0]) //0番目の要素を取得
+console.log(menu[0]); //0番目の要素を取得
 > "pizza"
-menu[3] = "bread" //3番目の要素を変更
-console.log(menu)
+menu[3] = "bread"; //3番目の要素を変更
+console.log(menu);
 > ["pizza","pasta","meat","bread","dessert"]
 ```
 配列に要素を追加したい場合には`push`などを使用します。
 ```javascript
 menu.push("soup") //末尾に要素を追加
-console.log(menu)
+console.log(menu);
 > ["pizza","pasta","meat","bread","dessert","soup"]
 ```
 逆に要素を削除したい場合には`pop`などを使用します。
 ```javascript
 menu.pop() //末尾の要素を削除
-console.log(menu)
+console.log(menu);
 > ["pizza","pasta","meat","bread","dessert"]
 ```
 
@@ -395,7 +487,9 @@ for (let i = 0; i < menu.length; i++) {
 > bread
 > dessert
 ```
-menu.lengthにより配列の要素数をforループの上限数としています。
+menu.lengthにより配列の要素数をforループの上限数としています。  
+
+演習問題： [【リンク】](#251-a11)
 
 ### 1.6. 関数
 関数とは、一連の処理のまとまりに名前を付けて1つの処理として扱う機能です。  
@@ -411,7 +505,7 @@ function hoge() { // 関数の定義
 関数は呼び出されない限り実行されません。そのため関数を呼び出すコマンドを通して関数の処理を行います。
 ```javascript
 greet()  // 関数の呼び出し
-console.log("Leaving a function")
+console.log("Leaving a function");
 
 function greet() {
     console.log("Hello, World!");
@@ -425,7 +519,7 @@ function greet() {
 #### 1.6.2. 引数と戻り値
 関数内で宣言した変数はその関数のブロック内でのみ有効です。しかしある関数から別の関数を呼び出す際に、その関数内で必要な値を渡したり、処理結果を呼び出し元の関数に返したりすることがあります。前者を「引数」、後者を「戻り値」と呼びます。
 ```javascript
-console.log(add(1,2))
+console.log(add(1,2));
 
 function add(a,b) {
     return a + b
@@ -463,7 +557,9 @@ function defMsg() {
 このコードを実行すると、`msg1` は正常に表示されますが、`msg2` にはエラーが発生します。  
 これは `msg1` が関数の外で定義された **グローバル変数** であり、プログラムのどこからでも参照できるためです。
 一方で `msg2` は関数内で定義された **ローカル変数** であり、その関数の外では参照できません。  
-すべての変数をグローバル変数として定義する方法はバグの原因になること、可読性が低下すること等を招くため絶対に推奨できません。
+すべての変数をグローバル変数として定義する方法はバグの原因になること、可読性が低下すること等を招くため絶対に推奨できません。  
+
+演習問題： [【リンク】](#26-a16)
 
 ## 2. JavaScript基礎演習
 
@@ -473,12 +569,12 @@ $`\sin x`$の値は$`x`$が0に近い場合、以下のように近似するこ�
 
 これを利用して$`\sin 1°`$の近似値を求めよ。
 ```javascript
-let x = 1
-let result = 0
+let x = 1;
+let result = 0;
 
 //WRITE ME!!
 
-console.log(result)
+console.log(result);
 ```
 
 ### 2.3-B2. $`dice`$
@@ -494,14 +590,14 @@ BMI（Body Mass Index, 体格指数）は体重と身長から算出される値
 BMIの値によって次のように分類される：18.5未満 : やせ型, 18.5以上25未満 : 標準, 25 以上 : 肥満  
 体重と身長を入力として受け取り、BMIを算出し、その結果に応じて「やせ型」「標準」「肥満」を出力せよ。
 ```javascript
-let weight = 60  // 体重 (kg)
-let height = 170  // 身長 (cm)
+let weight = 60;  // 体重 (kg)
+let height = 170;  // 身長 (cm)
 
-let result = ""
+let result = "";
 
 // WRITE ME!!
 
-console.log(result)
+console.log(result);
 ```
 
 ### 2.4.1-A4. $`NengoConverter`$
@@ -509,10 +605,10 @@ console.log(result)
 昭和より前の年号に対しては「昭和以前です。」と表示すること。  
 年号の対応は以下の通り：昭和:1926~, 平成:1989~, 令和:2019~ 
 ```javascript
-let year = 2000
+let year = 2000;
 
-let era = ""
-let eraYear = 0
+let era = "";
+let eraYear = 0;
 
 // WRITE ME!!
 
@@ -525,7 +621,7 @@ let eraYear = 0
 - ただし、西暦年が400で割り切れる年は閏年
 
 ```javascript
-let year = 2000
+let year = 2000;
 
 // WRITE ME!!
 
@@ -550,23 +646,23 @@ $`\pi`$の値は逆正接関数のテイラー展開により次のように求�
 ### 2.4.2-B8. $`Sqrt`$
 任意の自然数の平方を誤差0.0001以内で求めよ。
 ```javascript
-let num = 2
-let error = 0.0001
+let num = 2;
+let error = 0.0001;
 
 // WRITE ME!!
 
-console.log(num　+ "の平方は" + result + "です。")
+console.log(num　+ "の平方は" + result + "です。");
 ```
 
 
 ### 2.4.2-B9. $`Binary`$
 任意の自然数(10進数)を2進数に変換せよ。
 ```javascript
-let n = 1024
+let n = 1024;
 
 // WRITE ME!!
 
-console.log(result)
+console.log(result);
 ```
 
 
@@ -583,7 +679,7 @@ console.log(result)
 与えられた数値の配列から以下の統計値を求めよ。
 - 平均値（Mean）: 配列内のすべての値の合計を要素数で割った値。
 ```javascript
-let scores = [82, 53, 71, 15, 85, 71, 71, 41, 23, 74, 65, 15]
+let scores = [82, 53, 71, 15, 85, 71, 71, 41, 23, 74, 65, 15];
 
 // WRITE ME!!
 
@@ -617,9 +713,9 @@ console.log("Mean:" + mean);
 <details><summary>コードテンプレート</summary>
 
 ```javascript
-let budget = 1000
-let total_cost = 0
-let order_list = []
+let budget = 1000;
+let total_cost = 0;
+let order_list = [];
 
 let menu_list = [[商品番号,商品名,価格],
 [1202,"小エビのサラダ",350],
@@ -693,12 +789,12 @@ let menu_list = [[商品番号,商品名,価格],
 [5102,"【キッズ】セットドリンクバー",100],
 [5103,"単品ドリンクバー",300],
 [5305,"サイゼリヤドレッシング",500]
-]
+];
 
 //WRITE ME!!
 
-console.log("注文: " + order_list)
-console.log("合計: " + total_cost + "円")
+console.log("注文: " + order_list);
+console.log("合計: " + total_cost + "円");
 ```
 </details>
 
@@ -713,8 +809,8 @@ console.log("合計: " + total_cost + "円")
 ### 2.5.1-B15. $`Sort`$
 配列 $`A`$ が与えられる。この配列を降順（大きい順）に並び替えて出力せよ。
 ```javascript
-let A = [1,5,2,4,8,3,7,8,3,1,6,8,2,4,3,7,4,2,4,3]
-let N = A.length
+let A = [1,5,2,4,8,3,7,8,3,1,6,8,2,4,3,7,4,2,4,3];
+let N = A.length;
 ```
 
 
@@ -733,10 +829,10 @@ function isLeapYear(year) {
     //WRITE ME!! (閏年判定)
 }
 
-let birthDate = [2005,09,27]
+let birthDate = [2005,9,27];
 
-let date = new Date()
-let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()]
+let date = new Date();
+let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 
 //WRITE ME!!
 
@@ -752,20 +848,20 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()]
 ```javascript
 
 function halfAdder(A, B) {
-    let sum = false
-    let carry = false
+    let sum = false;
+    let carry = false;
 
     // WRITE ME!!
 
     return { sum, carry }
 }
 
-let A = false
-let B = false
+let A = false;
+let B = false;
 
-let result = halfAdder(A, B)
-console.log("Sum:", result.sum)
-console.log("Carry:", result.carry)
+let result = halfAdder(A, B);
+console.log("Sum:", result.sum);
+console.log("Carry:", result.carry);
 
 function or(a, b) {
     let result = (a == true || b == true) ? true : false;
@@ -801,12 +897,12 @@ function not(a) {
 
 すべての工芸品の製作が完了するまでにかかる最短日数を求めよ。
 ```javascript
-let A = [1,5,2,4,8,3,7,8,3,1,6,8,2,4,3,7,4,2,4,3]
-let N = A.length
+let A = [1,5,2,4,8,3,7,8,3,1,6,8,2,4,3,7,4,2,4,3];
+let N = A.length;
 
 //WRITE ME!!
 
-console.log("最短日数：" + day + "日")
+console.log("最短日数：" + day + "日");
 ```
 
 ***
