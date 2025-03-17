@@ -872,7 +872,7 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 - 桁上げ（Carry）: $C = A \land B$（AND 演算）
 
 出力は次のようになる。
-| 入力 | 入力 | 和(Sum) | 桁上げ(Carry) | 
+|  $A$  |  $B$  |  $S$  |  $C$  | 
 | :---: | :---: | :---: | :---: | 
 | false | false | false | false | 
 | false | true  | true  | false | 
