@@ -6,14 +6,22 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
 
 ## 0. はじめに
 今回の実習で使うものの準備をします！
-### 0.1 事前設定
+### 0.1. 事前設定
 JavaScript講習会では事前に以下の環境が整っている前提で進められます。
- - Visual Studio Code
- - Node.js
-また、GitHubを使用しての演習を予定しているため、[GitHub講習会](https://github.com/chrom9103/PiPi_Git-intro)を受講済み、或いはGitHubの使用方法を理解していることが望ましいです。
+ - Visual Studio Code  
+ - Node.js  
+また、GitHubを使用しての演習を予定しているため、[Git講習会](https://github.com/chrom9103/PiPi_Git-intro)を受講済み、或いはGitHubの使用方法を理解していることが望ましいです。
 
 > [!IMPORTANT]
 > 何か問題が起きたら気軽に相談しましょう！
+
+### 0.2. 環境整備
+
+#### 0.2.1. リポジトリのクローン
+
+#### 0.2.2. ブランチの作成
+
+#### 0.2.3. ディレクトリの作成
 
 ## 1. JavaScript基礎講習
 
