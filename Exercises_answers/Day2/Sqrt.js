@@ -19,4 +19,4 @@ while(true){
 }
 
 
-console.log(`${num}の平方は${result}です。`)
+console.log(num + "の平方は" + result + "です。")
