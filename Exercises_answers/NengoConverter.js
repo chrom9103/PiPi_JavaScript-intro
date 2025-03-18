@@ -18,4 +18,6 @@ if(year >= 2019){
     return
 }
 
-console.log(year + "年は" + era + eraYear + "年です。")
+if(era != "") {
+    console.log(year + "年は" + era + eraYear + "年です。")
+}

@@ -29,7 +29,7 @@ function sort(A) {
 
         for (let j = 0; j < n - 1 - i; j++) {
             if (A[j] < A[j + 1]) {
-                [A[j], A[j + 1]] = [A[j + 1], A[j]];
+                [A[j], A[j + 1]] = [A[j + 1], A[j]]
                 swapped = true;
             }
         }

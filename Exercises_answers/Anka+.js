@@ -84,7 +84,7 @@ while(true){
         order_list.push(order[1])
         total_cost += order[2]
     }
-    if(980 < total_cost && total_cost < 1020){
+    if(980 <= total_cost && total_cost <= 1020){
         break
     }
     total_cost = 0
