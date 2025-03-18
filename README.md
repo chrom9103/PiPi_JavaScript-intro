@@ -29,29 +29,29 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
     - [スコープ](#163-スコープ)
 - JavaScript基礎演習
   - Day1
-    - [2.3-A1.](#23-a1) $\sin x$
-    - [2.3-A2.](#23-a2) $dice$
-    - [2.4.1-A3.](#241-a3) $BMI$
-    - [2.4.1-A4.](#241-a4) $NengoConverter$
-    - [2.4.1-A5.](#241-a5) $LeapYear$
+    - [2.3-A1.](#23-a1-sin-x) $\sin x$
+    - [2.3-A2.](#23-a2-dice) $dice$
+    - [2.4.1-A3.](#241-a3-bmi) $BMI$
+    - [2.4.1-A4.](#241-a4-nengoconverter) $NengoConverter$
+    - [2.4.1-A5.](#241-a5-leapyear) $LeapYear$
   - Day2
-    - [2.4.2-A6.](#242-a6) $\pi$
-    - [2.4.2-B7.](#242-b7) $Collatz$
-    - [2.4.2-B8.](#242-b8) $Sqrt$
-    - [2.4.2-B9.](#242-b9) $Binary$
-    - [2.4.2-B10.](#242-b10) $Euclidean$
+    - [2.4.2-A6.](#242-a6-pi) $\pi$
+    - [2.4.2-B7.](#242-b7-collatz) $Collatz$
+    - [2.4.2-B8.](#242-b8-sqrt) $Sqrt$
+    - [2.4.2-B9.](#242-b9-binary) $Binary$
+    - [2.4.2-B10.](#242-b10-euclidean) $Euclidean$
   - Day3
-    - [2.5.1-A11.](#251-a11) $CTM$
-    - [2.5.1-A12.](#251-a12) $Anka$
-    - [2.5.1-B13.](#251-b13) $Anka+$
-    - [2.5.1-B14.](#251-b14) $KIYOSHI!$
-    - [2.5.1-B15.](#251-b15) $Sort$
+    - [2.5.1-A11.](#251-a11-ctm) $CTM$
+    - [2.5.1-A12.](#251-a12-anka) $Anka$
+    - [2.5.1-B13.](#251-b13-anka+) $Anka+$
+    - [2.5.1-B14.](#251-b14-kiyoshi!) $KIYOSHI!$
+    - [2.5.1-B15.](#251-b15-sort) $Sort$
   - Day4
-    - [2.6-B16.](#26-b16) $Manufacturer$
-    - [2.6-B17.](#26-b17) $AliveDays$
-    - [2.6-B18.](#26-b18) $Lottery$
-    - [2.6-C19.](#262-c19) $Fibonatti$
-    - [2.6-C20.](#262-c20) $HalfAdder$
+    - [2.6-B16.](#26-b16-manufacturer) $Manufacturer$
+    - [2.6-B17.](#26-b17-alivedays) $AliveDays$
+    - [2.6-B18.](#26-b18-lottery) $Lottery$
+    - [2.6-C19.](#262-c19-fibonatti) $Fibonatti$
+    - [2.6-C20.](#262-c20-halfadder) $HalfAdder$
 
 ## 0. はじめに
 今回の実習で使うものの準備をします！
