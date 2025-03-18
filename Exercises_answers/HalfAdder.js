@@ -4,7 +4,7 @@ function halfAdder(A, B) {
     let carry = false
 
     // WRITE ME!!
-    sum = xor(A, B)
+    sum = and(or(A, B), not(and(A, B)))
     carry = and(A, B)
 
     return { sum, carry }
@@ -29,8 +29,4 @@ function and(a, b) {
 
 function not(a) {
     return a == true ? false : true;
-}
-
-function xor(a, b) {
-    return or(and(a, not(b)), and(not(a), b));
 }

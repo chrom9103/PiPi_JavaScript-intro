@@ -23,9 +23,9 @@ for(let i = birthDate[0]; i < nowDate[0]; i++){
 // 誕生日の年の日数を減算
 let monthDays;
 if (isLeapYear(birthDate[0])) {
-    monthDays = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    monthDays = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 } else {
-    monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 }
 for(let i = 0; i < birthDate[1]-1; i++){
     days -= monthDays[i]
@@ -34,9 +34,9 @@ days -= birthDate[2]
 
 // 今年の日数を加算
 if (isLeapYear(birthDate[0])) {
-    monthDays = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    monthDays = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 } else {
-    monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 }
 for(let i = 0; i < nowDate[1]-1; i++){
     days += monthDays[i]
