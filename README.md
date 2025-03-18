@@ -43,8 +43,8 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
   - Day3
     - [2.5.1-A11.](#251-a11-ctm) $CTM$
     - [2.5.1-A12.](#251-a12-anka) $Anka$
-    - [2.5.1-B13.](#251-b13-anka+) $Anka$
-    - [2.5.1-B14.](#251-b14-kiyoshi!) $KIYOSHI$
+    - [2.5.1-B13.](#251-b13-anka) $Anka+$
+    - [2.5.1-B14.](#251-b14-kiyoshi) $KIYOSHI!$
     - [2.5.1-B15.](#251-b15-sort) $Sort$
   - Day4
     - [2.6-B16.](#26-b16-manufacturer) $Manufacturer$
