@@ -29,29 +29,29 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
     - [スコープ](#163-スコープ)
 - JavaScript基礎演習
   - Day1
-    - [2.3-A1. $\sin x$](#23-a1-sin-x)
-    - [2.3-B2. $dice$](#23-b2-dice)
-    - [2.4.1-A3. $BMI$](#241-a3-bmi)
-    - [2.4.1-A4. $NengoConverter$](#241-a4-nengoconverter)
-    - [2.4.1-B5. $LeapYear$](#241-b5-leapyear)
+    - [2.3-A1.](#23-a1-sin-x) $\sin x$
+    - [2.3-B2.](#23-b2-dice) $dice$
+    - [2.4.1-A3.](#241-a3-bmi) $BMI$
+    - [2.4.1-A4.](#241-a4-nengoconverter) $NengoConverter$
+    - [2.4.1-B5.](#241-b5-leapyear) $LeapYear$
   - Day2
-    - [2.4.2-A6. $\pi$](#242-a6-pi)
-    - [2.4.2-A7. $Euclidean$](#242-a7-euclidean)
-    - [2.4.2-B8. $Sqrt$](#242-b8-sqrt)
-    - [2.4.2-B9. $Binary$](#242-b9-binary)
-    - [2.4.2-B10. $Collatz$](#242-b10-collatz)
+    - [2.4.2-A6.](#242-a6-pi) $\pi$
+    - [2.4.2-A7.](#242-a7-euclidean) $Euclidean$
+    - [2.4.2-B8.](#242-b8-sqrt) $Sqrt$
+    - [2.4.2-B9.](#242-b9-binary) $Binary$
+    - [2.4.2-B10.](#242-b10-collatz) $Collatz$
   - Day3
-    - [2.5.1-A11. $CTM$](#251-a11-ctm)
-    - [2.5.1-A12. $KIYOSHI!$](#251-a12-kiyoshi)
-    - [2.5.1-A13. $Anka$](#251-a13-anka)
-    - [2.5.1-B14. $Anka+$](#251-b14-anka)
-    - [2.5.1-B15. $Sort$](#251-b15-sort)
+    - [2.5.1-A11.](#251-a11-ctm) $CTM$
+    - [2.5.1-A12.](#251-a12-kiyoshi) $KIYOSHI!$
+    - [2.5.1-A13.](#251-a13-anka) $Anka$
+    - [2.5.1-B14.](#251-b14-anka) $Anka+$
+    - [2.5.1-B15.](#251-b15-sort) $Sort$
   - Day4
-    - [2.6-A16. $Lottery$](#26-a16-lottery)
-    - [2.6-A17. $AliveDays$](#26-a17-alivedays)
-    - [2.6-A18. $HalfAdder$](#26-a18-halfadder)
-    - [2.6.2-B19. $Fibonatti$](#262-b19-fibonatti)
-    - [2.6.2-B20. $Manufacturer$](#262-b20-manufacturer)
+    - [2.6-A16.](#26-a16-lottery) $Lottery$
+    - [2.6-A17.](#26-a17-alivedays) $AliveDays$
+    - [2.6-A18.](#26-a18-halfadder) $HalfAdder$
+    - [2.6.2-B19.](#262-b19-fibonatti) $Fibonatti$
+    - [2.6.2-B20.](#262-b20-manufacturer) $Manufacturer$
 
 ## 0. はじめに
 今回の実習で使うものの準備をします！
