@@ -35,7 +35,7 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
     - [2.4.1-A4.](#241-a4-nengoconverter) $NengoConverter$
     - [2.4.1-A5.](#241-a5-leapyear) $LeapYear$
   - Day2
-    - [2.4.2-A6.](#242-a6-pi) $\pi$
+    - [2.4.2-A6.](#242-a6-sigma) $Sigma$
     - [2.4.2-B7.](#242-b7-collatz) $Collatz$
     - [2.4.2-B8.](#242-b8-sqrt) $Sqrt$
     - [2.4.2-B9.](#242-b9-binary) $Binary$
