@@ -654,7 +654,13 @@ console.log(result);
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+```
+[in]
+x = 2
+
+[out]
+0.8333333333333334
+```
 </details>
 
 ### 2.3-A2. $`dice`$
