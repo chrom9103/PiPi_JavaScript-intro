@@ -652,6 +652,11 @@ let result = 0;
 console.log(result);
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
+
 ### 2.3-A2. $`dice`$
 公平な6面サイコロを1回振る。出た目を$`X`$とするとき、$`X`$が奇数である場合には $`true`$を、偶数である場合には $`false`$を出力せよ。
 > [!NOTE]
@@ -675,6 +680,11 @@ let result = "";
 console.log(result);
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
+
 ### 2.4.1-A4. $`NengoConverter`$
 入力された西暦の年に対して、その年に対応する年号とその年号における年を表示せよ。  
 昭和より前の年号に対しては「昭和以前です。」と表示すること。  
@@ -689,6 +699,11 @@ let eraYear = 0;
 
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
+
 ### 2.4.1-A5. $`LeapYear`$
 入力された年が閏年か否か判別せよ。閏年である条件は以下のとおりである。
 - 西暦年が4で割り切れる年は閏年
@@ -702,8 +717,18 @@ let year = 2000;
 
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
+
 ### 2.4.2-A6. $`Sigma`$
 1から1,000までの自然数の総和を求めよ。
+
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.4.2-B7. $`Collatz`$
 コラッツ予想とは、任意の自然数 $n$ に対して以下の操作を繰り返すと最終的に $1$ になるという未解決の数学的問題である。  
@@ -713,6 +738,10 @@ let year = 2000;
 
 1 以上 10,000 以下のすべての自然数についてこの操作を行ったとき、すべての数が 1 に到達することを確認せよ。
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.4.2-B8. $`Sqrt`$
 任意の自然数の平方を誤差0.0001以内で求めよ。
@@ -725,6 +754,10 @@ let error = 0.0001;
 console.log(num　+ "の平方は" + result + "です。");
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.4.2-B9. $`Binary`$
 任意の自然数(10進数)を2進数に変換せよ。
@@ -736,6 +769,10 @@ let n = 1024;
 console.log(result);
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.4.2-B10. $`Euclidean`$
 2 つの正の整数 $A$ と $B$ が与えられたとき、ユークリッドの互除法を用いて 最大公約数（GCD） を求めよ。
@@ -746,6 +783,10 @@ console.log(result);
 - 余りが 0 ならば $B$ が最大公約数となる。
 - 余りが 0 でない場合、 $A$ を $B$ に、 $B$ を余りに置き換え、1 に戻る。
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.5.1-A11. $`CTM`$
 与えられた数値の配列から以下の統計値を求めよ。
@@ -758,6 +799,10 @@ let scores = [82, 53, 71, 15, 85, 71, 71, 41, 23, 74, 65, 15];
 console.log("Mean:" + mean);
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.5.1-A12. $`Anka`$
 サイゼリヤのメニューからランダムに選び続け、合計金額が1,000円を超えた時点で選んだメニューの一覧と合計金額を出力せよ。
@@ -850,6 +895,11 @@ console.log("合計: " + total_cost + "円");
 ```
 </details>
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
+
 ### 2.5.1-B13. $`Anka+`$
 
 2.5.1-A2. $`Anka`$ を改変することにより、合計金額が1,000円に近くなる*組み合わせを見つけて出力せよ。  
@@ -857,6 +907,10 @@ console.log("合計: " + total_cost + "円");
 > [!NOTE]
 > 合計金額が980円から1,020円の範囲に収まるようにランダムに組み合わせを選ぶこと。
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.5.1-B14. $`KIYOSHI!`$
 「ずん」と「どこ」をランダムに出力し続け、次の順番で出力されたときに「きよし！」と表示して処理を終了せよ。
@@ -878,6 +932,10 @@ console.log("合計: " + total_cost + "円");
 > [!NOTE]
 > 「ずん」または「どこ」をランダムに出力し、「ずんずんずんずんどこ」の順番が成立した場合にのみ「きよし！」を出力し、プログラムを終了すること。
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.5.1-B15. $`Sort`$
 配列 $`A`$ が与えられる。この配列を降順（大きい順）に並び替えて出力せよ。
@@ -886,6 +944,10 @@ let A = [1,5,2,4,8,3,7,8,3,1,6,8,2,4,3,7,4,2,4,3];
 let N = A.length;
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.6-B16. $`Manufacturer`$
 ある工房では、$`N`$ 個の工芸品 を製作する必要がある。各工芸品には製作日数が決まっており、工芸品 $`i`$ を作るには $`A[i]`$ 日かかる。
@@ -905,6 +967,10 @@ let N = A.length;
 console.log("最短日数：" + day + "日");
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.6-B17. $`AliveDays`$
 生年月日を入力として受け取り、現在の日付までの経過日数を求めよ。ただし、閏年を考慮すること。([閏年の条件](#241-b5))
@@ -922,6 +988,10 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 
 ```
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.6-B18. $`Lottery`$
 100個のくじのうち 当たりが3つ含まれているとする。このとき、10回の試行で少なくとも1回は当たりを引く確率を求めよ。  
@@ -930,6 +1000,10 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 - 引いたくじは 元に戻さない（非復元抽選）とする。
 - この試行を 1000 回繰り返し、実際の確率をシミュレーションで求める。
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.6-C19. $`Fibonatti`$
 フィボナッチ数列とは、次の漸化式で定義される数列である。
@@ -938,6 +1012,10 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 
 自然数 $N$ を入力として受け取り、フィボナッチ数列の $N$ 番目の値を出力せよ。
 
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ### 2.6-C20. $`HalfAdder`$
 2つの1ビットのバイナリ値を入力として受け取り、半加算器（Half Adder）を実装せよ。  
@@ -986,6 +1064,11 @@ function not(a) {
 }
 
 ```
+
+<details><summary>入力と出力</summary>
+
+//WRITE ME!!
+</details>
 
 ***
 参考文献  
