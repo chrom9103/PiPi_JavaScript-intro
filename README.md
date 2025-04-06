@@ -731,6 +731,7 @@ let year = 2000;
 
 let era = "";
 let eraYear = 0;
+```
 
 <details><summary>入力と出力</summary>
 
@@ -762,9 +763,6 @@ year = 1920
 昭和以前です。
 ```
 
-</details>
-
-```
 </details>
 
 ### 2.4.1-A5. $`LeapYear`$
