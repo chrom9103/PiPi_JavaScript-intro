@@ -669,10 +669,6 @@ x = 1
 > JavaScript において、`Math.random` と `Math.floor` を組み合わせることで、指定した範囲の乱数(整数)を生成できる。  
 > `Math.random()` は 0 以上 1 未満の小数をランダムに返す関数である。この値に適切なスカラーを掛け、`Math.floor()` を使用して小数部分を切り捨てることで、整数範囲の乱数を得ることができる。
 
-<details><summary>入力と出力</summary>
-
-//WRITE ME!!
-</details>
 
 ### 2.4.1-A3. $`BMI`$
 BMI（Body Mass Index, 体格指数）は体重と身長から算出される値で、次の式で計算される。
@@ -693,7 +689,37 @@ console.log(result);
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例１
+```
+[in]
+weight = 60
+height = 170
+
+[out]
+普通
+```
+BMIを$`\frac{体重(kg)}{身長(m)^2}`$の式に則って計算すると`20.761245674740486`になり、この値は18.5以上25未満であるため「標準」が出力されます。  
+
+入出力例２
+```
+[in]
+weight = 60.3
+height = 155
+
+[out]
+肥満
+```
+
+入出力例３
+```
+[in]
+weight = 46
+height = 167
+
+[out]
+やせ型
+```
+
 </details>
 
 ### 2.4.1-A4. $`NengoConverter`$
