@@ -826,7 +826,17 @@ false
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例
+```
+[in]
+なし
+
+[out]
+500500
+```
+```
+
+
 </details>
 
 ### 2.4.2-B7. $`Collatz`$
