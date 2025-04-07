@@ -849,7 +849,14 @@ false
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+(なし)
+
+[out]
+true
+```
 </details>
 
 ### 2.4.2-B8. $`Sqrt`$
