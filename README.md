@@ -1250,7 +1250,33 @@ console.log("最短日数：" + day + "日");
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+A = [1, 5, 2, 4, 8, 3, 7, 8, 3, 1, 6, 8, 2, 4, 3, 7, 4, 2, 4, 3]
+
+[out]
+最短日数：29日
+```
+
+入出力例2
+```
+[in]
+A = [10, 20, 30, 40, 50]
+
+[out]
+最短日数：50日
+```
+
+入出力例3
+```
+[in]
+A = [100, 90, 80, 70, 60, 50]
+
+[out]
+最短日数：150日
+```
+
 </details>
 
 ### 2.6-B17. $`AliveDays`$
@@ -1271,7 +1297,36 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+birthDate = [2005, 9, 27]
+nowDate = [2025, 4, 29]
+
+[out]
+7154日
+```
+
+入出力例2
+```
+[in]
+birthDate = [1837, 3, 25]
+nowDate = [2025, 4, 29]
+
+[out]
+68701日
+```
+
+入出力例3
+```
+[in]
+birthDate = [2022, 8, 8]
+nowDate = [2025, 4, 29]
+
+[out]
+995日
+```
+
 </details>
 
 ### 2.6-B18. $`Lottery`$
@@ -1283,7 +1338,24 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[out]
+確率：0.273
+```
+
+入出力例2
+```
+[out]
+確率：0.254
+```
+
+入出力例3
+```
+[out]
+確率：0.268
+```
+
 </details>
 
 ### 2.6-C19. $`Fibonatti`$
@@ -1295,7 +1367,33 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+N = 10
+
+[out]
+55
+```
+
+入出力例2
+```
+[in]
+N = 20
+
+[out]
+6765
+```
+
+入出力例3
+```
+[in]
+N = 30
+
+[out]
+832040
+```
+
 </details>
 
 ### 2.6-C20. $`HalfAdder`$
@@ -1348,7 +1446,49 @@ function not(a) {
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+A = false
+B = false
+
+[out]
+Sum: false
+Carry: false
+```
+
+入出力例2
+```
+[in]
+A = false
+B = true
+
+[out]
+Sum: true
+Carry: false
+```
+
+入出力例3
+```
+[in]
+A = true
+B = false
+
+[out]
+Sum: true
+Carry: false
+```
+
+入出力例4
+```
+[in]
+A = true
+B = true
+
+[out]
+Sum: false
+Carry: true
+```
 </details>
 
 ***
