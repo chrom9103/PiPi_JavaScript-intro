@@ -1367,7 +1367,33 @@ nowDate = [2025, 4, 29]
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+N = 10
+
+[out]
+55
+```
+
+入出力例2
+```
+[in]
+N = 20
+
+[out]
+6765
+```
+
+入出力例3
+```
+[in]
+N = 30
+
+[out]
+832040
+```
+
 </details>
 
 ### 2.6-C20. $`HalfAdder`$
