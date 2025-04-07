@@ -1446,7 +1446,49 @@ function not(a) {
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+A = false
+B = false
+
+[out]
+Sum: false
+Carry: false
+```
+
+入出力例2
+```
+[in]
+A = false
+B = true
+
+[out]
+Sum: true
+Carry: false
+```
+
+入出力例3
+```
+[in]
+A = true
+B = false
+
+[out]
+Sum: true
+Carry: false
+```
+
+入出力例4
+```
+[in]
+A = true
+B = true
+
+[out]
+Sum: false
+Carry: true
+```
 </details>
 
 ***
