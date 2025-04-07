@@ -997,7 +997,32 @@ console.log("Mean:" + mean);
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+scores = [82, 53, 71, 15, 85, 71, 71, 41, 23, 74, 65, 15]
+
+[out]
+Mean: 56.25
+```
+
+入出力例2
+```
+[in]
+scores = [100, 90, 80, 70, 60, 50]
+
+[out]
+Mean: 75
+```
+
+入出力例3
+```
+[in]
+scores = [10, 20, 30, 40, 50]
+
+[out]
+Mean: 30
+```
 </details>
 
 ### 2.5.1-A12. $`Anka`$
