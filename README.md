@@ -1297,7 +1297,36 @@ let nowDate = [date.getFullYear(),date.getMonth()+1,date.getDate()];
 
 <details><summary>入力と出力</summary>
 
-//WRITE ME!!
+入出力例1
+```
+[in]
+birthDate = [2005, 9, 27]
+nowDate = [2025, 4, 29]
+
+[out]
+7154日
+```
+
+入出力例2
+```
+[in]
+birthDate = [1837, 3, 25]
+nowDate = [2025, 4, 29]
+
+[out]
+68701日
+```
+
+入出力例3
+```
+[in]
+birthDate = [2022, 8, 8]
+nowDate = [2025, 4, 29]
+
+[out]
+995日
+```
+
 </details>
 
 ### 2.6-B18. $`Lottery`$
