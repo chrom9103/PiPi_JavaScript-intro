@@ -62,10 +62,6 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 <detyail><summary>VScodeのダウンロード手順</summary>
 
 </detail>
-<detyail><summary>Bunのダウンロード手順</summary>
-
-</detail>
-
 
 > [!IMPORTANT]
 > 何か問題が起きたら気軽に相談しましょう！
