@@ -65,7 +65,7 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 <detyail><summary>Bunのダウンロード手順</summary>
 
 </detail>
-また、GitHubを使用しての演習を予定しているため、[Git講習会](https://github.com/chrom9103/PiPi_Git-intro)を受講済み、或いはGitHubの使用方法を理解していることが望ましいです。
+
 
 > [!IMPORTANT]
 > 何か問題が起きたら気軽に相談しましょう！
