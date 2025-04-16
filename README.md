@@ -61,11 +61,14 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 
 <details><summary>VScodeのダウンロード手順</summary>
 
-1. Visual Studio Code のダウンロード用サイト( https://code.visualstudio.com/download )にアクセスし、対応するOSのものをインストールする
+1. Visual Studio Code のダウンロード用サイト( https://code.visualstudio.com/download )にアクセスし、対応するOSのものをダウンロードする。
+![ダウンロード用サイト](data/0.1.1.png)
 
 2. ダウンロードされたexeファイル(`VSCodeUserSetup-x64-1.99.2.exe`など)を展開し、画面上に表示される指示に従いセットアップする。(基本的には初期設定のままでOK)
+![exeファイルを展開](data/0.1.2.jpg)
 
-3. インストールが完了したら、「完了(F)」をクリックしてインストールを終了づる。中央にあるチェックボックスにチェックが入っていると、終了と同時にVisual Studio Codeが起動する。
+3. インストールが完了したら、「完了(F)」をクリックしてインストールを終了する。中央にあるチェックボックスにチェックが入っていると、終了と同時にVisual Studio Codeが起動する。
+![VS Codeの表示画面](data/0.1.3.png)
 
 </details>
 
@@ -89,7 +92,7 @@ VS Codeを起動し、`フォルダーを開く`から先ほど作成したフ�
 
 
 #### 0.2.3. Bunのインストール
-powershell上で以下のコマンドを実行してBunをダウンロードしましょう。
+powershell上で以下のコマンドを実行してBunをインストールしましょう。
 ```bash
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
