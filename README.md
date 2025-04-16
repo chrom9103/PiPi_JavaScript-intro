@@ -58,7 +58,6 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
 ### 0.1. 事前設定
 JavaScript講習会では事前に以下の環境が整っている前提で進められます。
  - Visual Studio Code  
- - Bun 
 
 <details><summary>VScodeのダウンロード手順</summary>
 
