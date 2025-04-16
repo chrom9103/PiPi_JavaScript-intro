@@ -61,6 +61,11 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 
 <details><summary>VScodeのダウンロード手順</summary>
 
+1. Visual Studio Code のダウンロード用サイト( https://code.visualstudio.com/download )にアクセスし、対応するOSのものをインストールする
+
+2. 
+
+
 </details>
 
 > [!IMPORTANT]
