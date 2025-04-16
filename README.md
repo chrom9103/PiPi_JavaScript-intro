@@ -106,10 +106,17 @@ powershell -c "irm bun.sh/install.ps1 | iex"
 #### 1.1.1. Hello world!
 早速ですがプログラミングを始めていきましょう！  
 その前にVScode上にある"出力(console)"に「Hello world!」という文字を出してみます。
-tutorial.jsに以下のコードを書いてから`実行>デバッグの開始`から実行してみましょう。（**`F5`キーでデバッグの開始ができます**）
+tutorial.jsに以下のコードを書いてから実行してみましょう。
+
 ```javascript
 console.log("Hello world!");
 ```
+
+bunのコマンドを打つことでVS Code下部のターミナルに実行結果が出力されます。以下のコマンドを打ってください。
+```bash
+bun tutorial.js
+```
+
 > [!TIP]
 > - Hello world!とは
 >   プログラミング言語の学習を始めるにあたって、必ず最初に唱えることになっているおまじないである。  
