@@ -88,7 +88,7 @@ powershell上で以下のコマンドを実行してBunをダウンロードし�
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-> [!TIPS]
+> [!TIP]
 > Bunとは
 > JavaScript実行環境の1つである。高速な起動と実行、組み込みのバンドラー・テストランナー・パッケージマネージャー（npm互換のbun installなど）を特徴としています。
 
