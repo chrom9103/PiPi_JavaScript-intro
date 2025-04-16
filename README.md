@@ -75,6 +75,14 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 
 
 #### 0.2.3. Bunのインストール
+powershell上で以下のコマンドを実行してBunをダウンロードしましょう。
+```bash
+powershell -c "irm bun.sh/install.ps1 | iex"
+```
+
+> [!TIPS]
+> Bunとは
+> JavaScript実行環境の1つである。高速な起動と実行、組み込みのバンドラー・テストランナー・パッケージマネージャー（npm互換のbun installなど）を特徴としています。
 
 
 ## 1. JavaScript基礎講習
