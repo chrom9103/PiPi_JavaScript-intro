@@ -58,7 +58,13 @@ JavaScript講習会では、Web開発において不可欠なプログラミン�
 ### 0.1. 事前設定
 JavaScript講習会では事前に以下の環境が整っている前提で進められます。
  - Visual Studio Code  
- - Node.js  
+ - Bun 
+<detyail><summary>VScodeのダウンロード手順</summary>
+
+</detail>
+<detyail><summary>Bunのダウンロード手順</summary>
+
+</detail>
 また、GitHubを使用しての演習を予定しているため、[Git講習会](https://github.com/chrom9103/PiPi_Git-intro)を受講済み、或いはGitHubの使用方法を理解していることが望ましいです。
 
 > [!IMPORTANT]
