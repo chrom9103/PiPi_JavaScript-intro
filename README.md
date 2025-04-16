@@ -62,13 +62,13 @@ JavaScript講習会では事前に以下の環境が整っている前提で進�
 <details><summary>VScodeのダウンロード手順</summary>
 
 1. Visual Studio Code のダウンロード用サイト( https://code.visualstudio.com/download )にアクセスし、対応するOSのものをインストールする
-![ダウンロード用サイト](data\0.1.1.png)
+![ダウンロード用サイト](data/0.1.1.png)
 
 2. ダウンロードされたexeファイル(`VSCodeUserSetup-x64-1.99.2.exe`など)を展開し、画面上に表示される指示に従いセットアップする。(基本的には初期設定のままでOK)
-![exeファイルを展開](data\0.1.2.jpg)
+![exeファイルを展開](data/0.1.2.jpg)
 
 3. インストールが完了したら、「完了(F)」をクリックしてインストールを終了する。中央にあるチェックボックスにチェックが入っていると、終了と同時にVisual Studio Codeが起動する。
-![VS Codeの表示画面](data\0.1.3.png)
+![VS Codeの表示画面](data/0.1.3.png)
 
 </details>
 
