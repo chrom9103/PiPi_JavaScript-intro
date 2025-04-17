@@ -92,14 +92,14 @@ VS Codeを起動し、`フォルダーを開く`から先ほど作成したフ�
 
 
 #### 0.2.3. Bunのインストール
-powershell上で以下のコマンドを実行してBunをインストールしましょう。
+PowerShell上で以下のコマンドを実行してBunをインストールしましょう。
 ```bash
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-<details><summary>powershellが表示されない場合</summary>
+<details><summary>PowerShellが表示されない場合</summary>
 
-powershellが表示されていない(画面下部にウインドウがない)場合は、以下のようにして表示させてください。
+PowerShellが表示されていない(画面下部にウインドウがない)場合は、以下のようにして表示させてください。
 
 1. ウインドウ上部の「パネルの切り替え」をクリックします。
 ![パネルの切り替えをクリック or `Ctrl + J`](data/0.2.3.2.JPG)
