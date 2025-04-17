@@ -13,4 +13,4 @@ if(BMI < 18.5){
     result = "肥満"
 }
 
-console.log("Hello World!")
+console.log(result)
