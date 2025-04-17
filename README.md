@@ -144,15 +144,20 @@ bun tutorial.js
 `console.log()`というコマンドで、括弧内の要素をコンソールへ出力することができるので覚えておきましょう。
 
 <details><summary>エラーが出るとき</summary>
+
 次のようなエラーが表示されますか?!
+
 ```bash
 error: Module not found "tutorial.js"
 ```
+
 このエラーは現在のディレクトリに実行したいファイル(`tutorial.js`など)が存在しないときに表示されるエラーです。  
 PowerShellにも、エクスプローラーと同じように現在表示している場所（カレントディレクトリ）があります。カレントディレクトリは既にPowerShell上に表示されています。文字を入力できる一の左側に次のような文字列が表示されているはずです。
+
 ```bash
 PS C:\Users\{UserName}\develops\PiedPiper\JavaScript> 
 ```
+
 このような場合、その指し示す位置が現在表示している場所です。試しにエクスプローラーでその住所を表示してみてください。（例の場合、エクスプローラー上部のカレントディレクトリを示す場所に`C:\Users\{UserName}\develops\PiedPiper\JavaScript`と入力し実行する。）  
 
 それではカレントディレクトリを実行したいファイルが収納されているフォルダに移動していきます。
