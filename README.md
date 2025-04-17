@@ -345,6 +345,7 @@ Uncaught ReferenceError: x is not defined
 - **エラーの原因**: `x is not defined`  
 - **発生箇所**: `main.js` の 2 行目
 
+
 > [!IMPORTANT]
 > エラーメッセージは友達です。何故か想定外の動作をする状況より100倍マシ。
 
