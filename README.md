@@ -309,6 +309,47 @@ console.log("Hello world!");
 コメントを適切に使用することで、コードの可読性が向上し、他の開発者がコードを理解しやすくなります。
 </details>
 
+### 1.1.3. エラーメッセージ
+<details><summary>詳細を表示</summary>
+
+エラーメッセージは、プログラムの実行中に発生した問題を知らせるために表示されるメッセージです。エラーメッセージを正しく理解し、適切に対処することで、プログラムのバグを効率的に修正できます。
+
+#### 1.1.3.1. エラーの種類
+JavaScript講習会では、以下のようなエラーが発生することを想定しています。
+
+- **構文エラー (SyntaxError)**  
+  コードの文法が間違っている場合に発生します。  
+  例:  
+  ```javascript
+  console.log("Hello world! // 閉じ忘れ
+  > SyntaxError: Unexpected end of input
+  ```
+
+- **参照エラー (ReferenceError)**  
+  存在しない変数や関数を参照した場合に発生します。  
+  例:  
+  ```javascript
+  console.log(wit);
+  > ReferenceError: wit is not defined
+  ```
+
+#### 1.1.3.2. エラーメッセージの読み方
+エラーメッセージには、エラーの種類、原因、発生箇所が記載されています。以下の例を見てみましょう。
+
+```bash
+Uncaught ReferenceError: x is not defined
+    at main.js:2:1
+```
+
+- **エラーの種類**: `ReferenceError`  
+- **エラーの原因**: `x is not defined`  
+- **発生箇所**: `main.js` の 2 行目
+
+> [!IMPORTANT]
+> エラーメッセージは友達です。何故か想定外の動作をする状況より100倍マシ。
+
+</details>
+
 ### 1.2. 変数とデータ型
 
 ### 1.2.1. 変数と定数
