@@ -8,7 +8,7 @@ let BMI = weight / (height/100)**2
 if(BMI < 18.5){
     result = "やせ型"
 }else if(BMI < 25){
-    result = "普通"
+    result = "標準"
 }else{
     result = "肥満"
 }
