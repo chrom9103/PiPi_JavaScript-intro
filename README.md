@@ -663,7 +663,7 @@ let menu = ["pizza","pasta","meat","soup","dessert"];
 ```javascript
 console.log(menu[0]); //0番目の要素を取得
 > "pizza"
-menu[3] = "bread"; //3番目の要素を変更
+menu[3] = "bread"; //4番目の要素を変更
 console.log(menu);
 > ["pizza","pasta","meat","bread","dessert"]
 ```
