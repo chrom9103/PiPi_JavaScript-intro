@@ -628,6 +628,31 @@ while( cnt < 5 ){
 > 4
 ```
 
+> [!TIPS]
+> - break文について
+> 
+> `break`文は、現在のループやスイッチ文の実行を中断し、制御をその外側に移すために使用されます。主に以下のような場面で利用されます：
+> 
+> **ループの中断**:
+>   - `for`、`while`ループ内で特定の条件が満たされた場合にループを終了します。
+> 
+> ```javascript
+> let cnt = 0;
+> while( cnt < 5>){
+>   console.log(cnt);
+>   cnt += 1;
+>   if(cnt == 3){
+>     break
+>   }
+> }
+> console.log("Task Complete!")
+> > 0
+> > 1
+> > 2
+> > 3 // cntが3になったのでif文からbreak->実行を中断している
+> > "Task Complete!"
+> ```
+
 #### 1.4.2.2. for文
 for文は初期化処理,条件式,更新式を用いて繰り返し処理を行います。実行する回数が決まっている場合はwhileではなくforを使用することが一般的です。
 ```javascript
@@ -663,7 +688,7 @@ let menu = ["pizza","pasta","meat","soup","dessert"];
 ```javascript
 console.log(menu[0]); //0番目の要素を取得
 > "pizza"
-menu[3] = "bread"; //3番目の要素を変更
+menu[3] = "bread"; //4番目の要素を変更
 console.log(menu);
 > ["pizza","pasta","meat","bread","dessert"]
 ```
@@ -695,7 +720,7 @@ for (let i = 0; i < menu.length; i++) {
 ```
 menu.lengthにより配列の要素数をforループの上限数としています。  
 
-演習問題： [【リンク】](#251-a11-ctm)
+演習問題： [【リンク】](#251-a11)
 
 ### 1.6. 関数
 関数とは、一連の処理のまとまりに名前を付けて1つの処理として扱う機能です。  
