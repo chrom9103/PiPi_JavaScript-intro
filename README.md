@@ -1014,14 +1014,14 @@ true
 </details>
 
 ### 2.4.2-B8. $`Sqrt`$
-任意の自然数の平方を誤差0.0001以内で求めよ。
+任意の変数numの平方根(２乗するとnumになる数)を求めます。resultを0から0.001ずつ増やしながら「しらみつぶし」に探してください。resultを２乗した値がnumを超えた瞬間にループを終了させなさい。
 ```javascript
 let num = 2;
-let error = 0.0001;
+let result = 0;
 
 // WRITE ME!!
 
-console.log(num　+ "の平方は" + result + "です。");
+console.log(num　+ "の平方はだいたい" + result + "です。");
 ```
 
 <details><summary>入力と出力</summary>
@@ -1030,30 +1030,30 @@ console.log(num　+ "の平方は" + result + "です。");
 ```
 [in]
 num = 2
-error = 0.0001
+result = 0.0001
 
 [out]
-2の平方は1.4141845703125です。
+2の平方はだいたい1.415です。
 ```
 
 入出力例2
 ```
 [in]
 num = 1000
-error = 0.0001
+result = 0.0001
 
 [out]
-1000の平方は31.62277676165104です。
+1000の平方はだいたい31.623です。
 ```
 
 入出力例3
 ```
 [in]
 num = 0.25
-error = 0.0001
+result = 0.0001
 
 [out]
-0.25の平方は0.5です。
+0.25の平方はだいたい0.5です。
 ```
 </details>
 
