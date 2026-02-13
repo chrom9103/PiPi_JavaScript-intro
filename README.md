@@ -1516,6 +1516,13 @@ nowDate = [2025, 4, 29]
 - 引いたくじは 元に戻さない（非復元抽選）とする。
 - この試行を 1000 回繰り返し、実際の確率をシミュレーションで求める。
 
+<details><summary>ヒント</summary>
+
+
+
+
+<details>
+
 <details><summary>入力と出力</summary>
 
 入出力例1
